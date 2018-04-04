@@ -8,8 +8,6 @@ body {
 }
 header {
    background-color: #22004c;
-    margin-left: 10em;
-    margin-right: 10em;
 }
 
 header .text {
@@ -58,6 +56,7 @@ nav {
 	background-color: #e8d9fc;
 }
 
+/*dat media checker tho */
 @media (max-width: 1068px) {
 	nav a {
 		width: 100%;
@@ -72,21 +71,24 @@ nav {
 		font-size: 3vw;
 	}
 }
-
+    @media (min-width: 1068px) {
+    .container {
+        width: 98%;
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+}
 div.author{
     font-weight: bold;
 	font-size: 1.6em;
 }
 div.date{
-    /*font-weight: bold;*/
     margin-bottom: 5em;
 	color: #888;
 }
 
 div.text-container {
     background-color: #f5edff;
-    margin-left: 10em;
-    margin-right: 10em;
 	padding: 50px;
     padding-bottom: 15em;
     line-height: 1.65em;
