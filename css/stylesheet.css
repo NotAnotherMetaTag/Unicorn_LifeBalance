@@ -1,1 +1,66 @@
-/* stylesheet for webpage. */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/* import can be a dangerous prospect for a reliable system, but we usin it because I like this font. EC */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: #22004c;
+    background: radial-gradient(circle, #02003d,#e8e8ff,#29003f);
+}
+header {
+   background-color: #22004c;
+   height: 200px;
+    padding: 15px 0 5px 25px;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+header h1 {
+    font-size: 64px;
+    font-weight: bold;
+    color: #f5edff;
+}
+
+header h2 {
+    font-size: 32px;
+    color: #f5edff;
+    padding-left: 4.5em;
+}
+header nav {
+
+}
+nav ul li
+{
+    list-style: none;
+    display: inline;
+}
+nav a {
+    color: #f5edff;
+    position: relative;
+    top: 50px;
+    padding-right: 5em;
+    font-size: 12px;
+}
+nav a:hover {
+    color: #e8d9fc;
+}
+
+div.author{
+    font-weight: bold;
+    padding-top: 1em;
+}
+div.date{
+    font-weight: bold;
+    margin-bottom: 5em;
+}
+
+div.text-container {
+    background-color: #f5edff;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding-bottom: 10em;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 1.65em;
+}
+p {
+    padding-bottom: 1em;
+}
