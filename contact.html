@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/stylesheet.css">
 	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/logofade.js"></script>  
     <!-- allows other platforms to scale, turns off zoom. -->
 </head>
 <body>
@@ -14,6 +16,9 @@
 	<header>
 	    <div class="header">
 			<div class="text">
+                <figure id="logo">
+                <img src="img/logo_purp.jpg" alt="Unicorn Life Logo">
+                </figure>
 			    <h1>Team Unicorn</h1>
 			    <h2>Work-Life Balance</h2>
 			</div>
@@ -31,10 +36,8 @@
 	<div class="text-container">
 	    <div class="author">Daniel Sheppard</div>
 	    <div class="date">27, March 2018</div>
-	    
-    
-
-    <form action="contactform.php" method="post">
+	    <!-- redacted. Emily was trying to make PHP work. It doesn't with our S3 server, static content only. Sorry Nash -->
+    <form action="" method="post">
   <fieldset>
     <legend>Contact Us</legend>
     <label for="name">Name:</label>
@@ -49,7 +52,8 @@
     </div>
     
     <footer>
-    <!-- generic copyright booshiz -->
+  <p><a href="#">Back To Top</a> 
+  <p><em>Copyright &copy; 2018 Unicorn Life</em></p>
     </footer>
     </div>
 </body>
