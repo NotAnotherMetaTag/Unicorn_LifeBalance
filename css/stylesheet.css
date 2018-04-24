@@ -26,6 +26,14 @@ header h2 {
     padding-left: 4.5em;
 }
 
+header img {
+    position: absolute;
+    right: 200px;
+    top: 20px;
+    
+    
+}
+
 header nav {
 	/* NOTE: this removes a space that CSS seems to like to include. EC */
 	font-size: 0;
@@ -70,6 +78,9 @@ nav {
 		padding-left: 5vw;
 		font-size: 3vw;
 	}
+    header img {
+        width: 0%;
+    }
 }
     @media (min-width: 1068px) {
     .container {
@@ -93,6 +104,25 @@ div.text-container {
     padding-bottom: 15em;
     line-height: 1.65em;
 }
+div.text-container a {
+    color: #22004c;
+}
+
+div.text-container a:hover {
+    color: #523c6d;
+}
+
+}
 p {
     padding-bottom: 1em;
+}
+footer {
+   background-color: #22004c;
+    color: #f5edff;
+}
+footer a {
+    color: #808080;
+}
+footer a:hover {
+    color: #adadad;
 }
